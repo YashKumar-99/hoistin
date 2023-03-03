@@ -1,0 +1,137 @@
+.Navigation-section ul.navbar-nav.mr-auto {
+    margin-left: auto;
+}
+
+.Navigation-section ul.navbar-nav li {
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+
+.header-right-img img {
+    width: 100%;
+}
+
+.bg-custom {
+    background: #EEF0F8;
+}
+
+.First-sec-left {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+.Header-Title-first h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    text-transform: capitalize;
+}
+
+.Header-section-description p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 48px; */
+    text-transform: capitalize;
+}
+
+.last-nav-button {
+    margin-left: 20px;
+}
+
+.bg-custom {
+    background: #EEF0F8;
+    padding: 35px 0px;
+}
+
+
+@media (max-width: 1200px) {
+
+
+    .Header-Title-first h1 {
+        font-size: 30px;
+    }
+
+
+    .Header-section-description p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .Header-Title-first h1 {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+
+    a.navbar-brand img {
+        width: 85px;
+    }
+
+    .header-right-img img {
+        width: 75%;
+    }
+
+    .header-right-img {
+        text-align: center;
+    }
+
+    .Navigation-section ul.navbar-nav li a {
+        padding: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .last-buttons {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    .navbar-light .navbar-toggler {
+        
+        border-color: transparent;
+    }
+}
+
+@media(max-width:576px) {
+
+
+    .Home-first-sec {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .header-right-img {
+        margin-bottom: 30px;
+    }
+
+    
+    div#navbarSupportedContent {
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
